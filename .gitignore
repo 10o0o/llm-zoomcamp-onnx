@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded models and notebook checkpoints
+models/
+*.onnx
+*.onnx_data
+.ipynb_checkpoints/
